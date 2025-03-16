@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a5a5a5;
+}
+.app-wrapper {
+  width: 550px;
+  height: 550px;
+  background-color: rgba(40, 45, 53, 1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px 24px;
+  background-color: #21222a;
+}
+.nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.logo-img {
+  width: 28px;
+  aspect-ratio: 1;
+}
+.logo-text {
+  font-weight: 700;
+  font-size: 22.25px;
+  color: #61dafb;
+  letter-spacing: -5%;
+}
